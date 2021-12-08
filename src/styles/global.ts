@@ -1,4 +1,4 @@
-import { createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   :root {
@@ -39,4 +39,10 @@ export const GlobalStyles = createGlobalStyle`
    opacity: 0.6;
    cursor: not-allowed;
  }
-`
+ .App{
+   width: 100%;
+  max-width:100vw;
+  overflow: hidden;
+
+ }
+`;
