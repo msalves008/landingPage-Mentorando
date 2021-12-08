@@ -6,7 +6,7 @@ export const Container = styled.div`
   background-color: var(--blue);
   display: flex;
   align-items: center;
-  
+
   flex-direction: column;
   .waves {
     width: 100%;
@@ -14,30 +14,37 @@ export const Container = styled.div`
     left: 0;
   }
   .content {
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-top: 4rem;
+    flex-direction: row;
+    padding-top: 6rem;
     width: 100%;
-    max-width:1280px;
+    max-width: 1280px;
 
-    h2{
-      text-align: center;
-      font-family: "Roboto";
-      font-size: 1.5rem;
-      color: var(--white);
+    img {
+      height: 90%;
     }
-    img{
-      height: 80%;
-    }
-    p{
-      width: 80%;
-      text-align: center;
-      font-family: "Roboto";
-      font-size: 1rem;
-      color: var(--white);
+    .right {
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      h2 {
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 1.5rem;
+        color: var(--white);
+      }
+      p {
+        width: 70%;
+        text-align: justify;
+        font-family: "Roboto";
+        font-size: 1rem;
+        color: var(--white);
+      }
     }
   }
 `;

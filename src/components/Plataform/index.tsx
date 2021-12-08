@@ -8,13 +8,16 @@ const Plataform: React.FC = () => {
     <Container>
       <img src={waves} alt="" className="waves" />
       <div className="content">
-        <h2>Marque Mentorias a qualquer momento</h2>
         <img src={PlataformIcon} alt="" />
+        <div className="right">
+        <h2>Marque Mentorias a qualquer momento</h2>
         <p>
           Logo após o agendamento da mentoria tanto o Mentor quanto o Mentorando
-          recebem um<br/>link por e-mail com a confirmação do evento é o link da
+          recebem um link por e-mail com a confirmação do evento é o link da
           mentoria no Google Meet.
         </p>
+
+        </div>
       </div>
     </Container>
   );
