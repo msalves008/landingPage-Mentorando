@@ -15,7 +15,7 @@ function App() {
       <Home/>
       <AboutUs/>
       <Services/>
-      <Plataform/>
+      <Plataform />
       <Contact/>
 
       <Footer/>

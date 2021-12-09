@@ -6,7 +6,7 @@ import { Container } from "./styles";
 const Plataform: React.FC = () => {
   return (
     <Container>
-      <img src={waves} alt="" className="waves" />
+      <img id="plataform" src={waves} alt="" className="waves" />
       <div className="content">
         <img src={PlataformIcon} alt="" />
         <div className="right">

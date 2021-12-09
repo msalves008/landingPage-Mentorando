@@ -5,7 +5,7 @@ import { Container } from "./styles";
 const AboutUs: React.FC = () => {
   return (
     <Container>
-      <h1>Sobre Nós</h1>
+      <h1 id="aboutus">Sobre Nós</h1>
       <div className="container">
         <div className="content">
           <div className="infos">

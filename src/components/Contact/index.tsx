@@ -6,7 +6,7 @@ import { Container } from "./styles";
 const Contact: React.FC = () => {
   return (
     <Container>
-      <h1>Contato</h1>
+      <h1 id="contact">Contato</h1>
       <div className="content">
         <a
           target="_blank"
