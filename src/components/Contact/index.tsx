@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
           id="filled-required"
           label="Nome"
           type="text"
-          defaultValue="Matheus Alves"
+          placeholder="Matheus Alves"
           variant="outlined"
           className="text-field"
         />
@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
           id="filled-required"
           label="Telefone"
           type="phone"
-          defaultValue="(11) 99999-9999"
+          placeholder="(11) 99999-9999"
           variant="outlined"
           className="text-field"
         />
@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
           id="filled-required"
           label="Email"
           type="email"
-          defaultValue="contato@mentorando.com"
+          placeholder="contato@mentorando.com"
           variant="outlined"
           className="text-field"
         />
@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
           required
           id="filled-required"
           label="Mensagem"
-          defaultValue="-"
+          placeholder="-"
           variant="outlined"
           className="text-field"
         />
