@@ -15,8 +15,8 @@ const Home: React.FC = () => {
             <br /> resposta.
           </h1>
           <span>
-            Avançe seus conhecimentos com os melhores
-            <br /> mentores do mundo.
+            Avance seus conhecimentos com os melhores
+            <br /> Mentores do mundo.
           </span>
           <Button variant="contained">SAIBA MAIS!</Button>
         </div>

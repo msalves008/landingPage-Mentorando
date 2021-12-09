@@ -12,7 +12,7 @@ const AboutUs: React.FC = () => {
             <p>
               Somos uma plataforma online que conecta Mentorandos com Mentores de
               diversos cargos e empresas espalhadas pelo mundo, de forma rápida
-              é pratica, é o melhor de tudo no conforto da sua casa.
+              é prática, é o melhor de tudo no conforto da sua casa.
             </p>
             <span>
               “O maior inimigo do conhecimento não é a <br/> ignorância, é a ilusão do

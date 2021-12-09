@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutUs from './components/AboutUs';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Plataform from './components/Plataform';
@@ -14,6 +15,8 @@ function App() {
       <AboutUs/>
       <Services/>
       <Plataform/>
+
+      <Footer/>
 
 
 
